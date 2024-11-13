@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEC4D38F-4759-E7D3-B2E6-257485BCCF39" name="Log_Peminjaman">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>46EEA16D-20BD-EA9F-96CF-1D1FE8DAC1A4</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<abbreviation>log</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Log" id="1926FF92-36D5-2A47-E409-E4C4445B1514">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>61D34672-4A14-F538-D77E-0B84711FE743</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_brg" id="8769A770-F5F6-6969-7D54-B45915CA0D71">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>25EC5320-692C-0857-67FF-4B8D84E66236</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tgl_log" id="7173BE53-02E3-9AF7-5E38-AD6F742BA4B9">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>3DACB0F3-A707-D5E6-F233-4EE09E74D769</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Peminjaman_ID_Pnjm" id="84C199F5-05A4-2F85-7AF8-E554869C82A6">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>41D717A5-0FFB-2131-E2C2-278CCD694483</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63ED88A1-F351-DEDA-BF6A-D52F88784ED1" referredColumn="8D7075FB-EE6E-F328-AC1E-2F52AC265DD3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2060F3E-AE32-E9CE-35D4-9CEF53817B19" name="Log_Peminjaman_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>33E6CE9C-AD5C-A17B-5CD5-7B573AE18A3F</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1926FF92-36D5-2A47-E409-E4C4445B1514"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F246E30-546C-46A7-F1B4-04ACFC91B6E5" name="Log_Peminjaman_Peminjaman_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>2BACDB6B-05D2-3F11-C716-362D44219552</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84C199F5-05A4-2F85-7AF8-E554869C82A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04E4A5DB-DA92-8AD0-F4F2-EF018DA314F8" name="Staff">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>B2B9F3E0-7374-1C58-F4AB-0EF2870C63CA</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<abbreviation>sf</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Staff" id="E91AF0D6-5FE2-8037-4985-665DF090CF9A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>237D7B10-2B0F-A6A3-E45C-565439522BBE</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_sf" id="F7588B2F-ACD5-3977-B6D6-EAE483C632EE">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>B829A290-69EB-9916-F1F2-A5600C886392</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="610F99AA-0521-5EC6-F642-D901490B8FAC" name="Staff_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>7170BCBE-2120-9A04-5108-831350DD8BA5</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E91AF0D6-5FE2-8037-4985-665DF090CF9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

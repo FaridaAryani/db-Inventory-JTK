@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2B9F3E0-7374-1C58-F4AB-0EF2870C63CA" name="Staff">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:09:44 UTC</createdTime>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>sf</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Staff" id="237D7B10-2B0F-A6A3-E45C-565439522BBE">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:09:55 UTC</createdTime>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_sf" id="B829A290-69EB-9916-F1F2-A5600C886392">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:10:11 UTC</createdTime>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7170BCBE-2120-9A04-5108-831350DD8BA5" name="Staff PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:10:10 UTC</createdTime>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>237D7B10-2B0F-A6A3-E45C-565439522BBE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

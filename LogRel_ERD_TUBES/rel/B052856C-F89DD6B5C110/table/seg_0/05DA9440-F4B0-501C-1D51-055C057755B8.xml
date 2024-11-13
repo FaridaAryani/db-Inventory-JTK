@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05DA9440-F4B0-501C-1D51-055C057755B8" name="Dosen">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>E8007FF8-A306-2CCA-C553-0BC92736E1F1</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<abbreviation>ds</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIP" id="8641B5D7-0E21-8E5E-6298-70B8D486C7E0">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>8AA44514-0240-75A3-586F-4BB56588011D</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_ds" id="28026FDA-290A-CA94-8600-80425593BB71">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>98298DEF-1C47-62A9-3FFD-8D7AA03D8A0B</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D0E183A-479D-7FEC-33A0-3C1DDFD930E8" name="Dosen_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>20DD8CBA-CFC6-3ED3-E6C7-BE09F5F72FC0</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8641B5D7-0E21-8E5E-6298-70B8D486C7E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

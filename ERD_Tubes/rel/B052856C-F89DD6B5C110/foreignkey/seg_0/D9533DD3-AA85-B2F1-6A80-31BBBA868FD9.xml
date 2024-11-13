@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D9533DD3-AA85-B2F1-6A80-31BBBA868FD9" containerWithKeyObject="58A18C3C-7284-3BF0-8470-231531F4AC6D" localFKIndex="EA4968B8-DD5B-1567-0956-B746EB642A86" name="Peminjaman_Dosen_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>C4333605-B94B-F513-ECEF-332AE6CB8556</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<referredTableLongName>Dosen</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>05DA9440-F4B0-501C-1D51-055C057755B8</referredTableID>
+<keyObject>7D0E183A-479D-7FEC-33A0-3C1DDFD930E8</keyObject>
+<referredKeyID>7D0E183A-479D-7FEC-33A0-3C1DDFD930E8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

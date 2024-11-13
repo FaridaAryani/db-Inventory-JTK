@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="63ED88A1-F351-DEDA-BF6A-D52F88784ED1" containerWithKeyObject="DEC4D38F-4759-E7D3-B2E6-257485BCCF39" localFKIndex="0F246E30-546C-46A7-F1B4-04ACFC91B6E5" name="Log_Peminjaman_Peminjaman_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>2BACDB6B-05D2-3F11-C716-362D44219552</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<referredTableLongName>Peminjaman</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58A18C3C-7284-3BF0-8470-231531F4AC6D</referredTableID>
+<keyObject>6D6C5826-0044-C31E-1299-740D5B0ABD43</keyObject>
+<referredKeyID>6D6C5826-0044-C31E-1299-740D5B0ABD43</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Pnjm</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

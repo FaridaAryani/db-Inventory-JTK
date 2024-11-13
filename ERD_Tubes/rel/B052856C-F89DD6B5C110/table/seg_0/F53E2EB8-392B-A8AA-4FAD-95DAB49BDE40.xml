@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F53E2EB8-392B-A8AA-4FAD-95DAB49BDE40" name="Barang">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>46D61F4F-D0A5-A969-716F-43BF90A9225A</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<abbreviation>brg</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Brg" id="09728085-9571-FDCC-E34D-9CAAD1E776F5">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>5AB50A2E-1D60-12BD-6874-02C84B01BCBE</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_brg" id="770A50D7-A0F6-0DA9-6B52-0919D1C54EDB">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>0D92EF3F-0D5D-6E71-D241-7BD9EE2F9183</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stok" id="25D9EE3E-A184-1D4E-BBB9-4E59944B2D48">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>D3489A9A-DFA1-3C3A-8F46-DCEFC55F15EF</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kondisi" id="9F1D868B-2151-9B02-C510-712C7567BF69">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>E311C680-6DF7-DC08-3FF4-A2759001E783</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CADDB8F-F915-4FF9-9A68-AEB0490B102C" name="Barang_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<generatorID>34446B9B-899B-1652-424A-35CF6FA8506E</generatorID>
+<ownerDesignName>ERD_Tubes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09728085-9571-FDCC-E34D-9CAAD1E776F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="LogRel_ERD_TUBES" id="16207410-3CEF-BC9A-92E7-0DAB2A5DF54C" version="3.5">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 16:40:27 UTC</createdTime>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>16207410-3CEF-BC9A-92E7-0DAB2A5DF54C</designId>
+</OSDM_Design>
