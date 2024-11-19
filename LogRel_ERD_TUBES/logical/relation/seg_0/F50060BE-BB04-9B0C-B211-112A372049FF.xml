@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="peminjaman_dosen_FK" directorySegmentName="seg_0" id="F50060BE-BB04-9B0C-B211-112A372049FF">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 16:07:05 UTC</createdTime>
+<generatorID>1999E6CB-2918-58F0-9B5B-EBA74DA2D0F2</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<sourcePk>0DF0FB59-BCD1-F67B-1EAE-464FB37C753C</sourcePk>
+<dominantRole>F1C87949-B64C-F850-E568-CDC3E41571BC</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1C87949-B64C-F850-E568-CDC3E41571BC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F84E909C-260D-0E28-5282-9BF97B0659B0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

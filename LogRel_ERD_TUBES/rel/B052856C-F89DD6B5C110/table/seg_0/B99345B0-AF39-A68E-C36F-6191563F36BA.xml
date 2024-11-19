@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6846A743-0302-F3D5-06A3-7C70ED37AFCE" name="mahasiswa">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B99345B0-AF39-A68E-C36F-6191563F36BA" name="mahasiswa">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>A67F661F-45FC-EA90-18BD-3C48A50C6CF0</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>307EF1B4-D0FF-9800-2CDC-AB22B64A1C7B</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <abbreviation>mhs</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="nim" id="25026F01-A4F4-ECFD-C188-48B2194A3DB4">
+<Column name="nim" id="D5CEB5A5-2441-DE21-CEFE-B9F6E247F250">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>87987B3E-A02B-6592-F62D-73A8C20B21D8</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>4BD36E99-835F-BA16-0A8D-98E1013F3815</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,10 +20,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nama_mhs" id="EEFDA1D9-DDFB-910C-E479-089B932E7BE8">
+<Column name="nama_mhs" id="A41297B9-6CC0-5D2E-D76D-479BFE6D6772">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>76A81BEB-3D7D-8C56-ACCE-272DED4F499D</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>F395F5B3-55AE-5D61-B6B4-6866E16D97A8</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,10 +33,10 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="kelas" id="CCA48988-BF4A-BB2A-1468-6D9325A0C156">
+<Column name="kelas" id="D2E23586-E3FD-3E73-1C2B-87666D0D62B4">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>05EF55DC-5D80-9C6C-C34D-A3172FE22954</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>E4E738BE-FDC3-DC31-1D86-939C6A0FAB4B</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,10 +46,10 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="status" id="5EAEE186-9E8E-0A10-7CD9-EBA96D04777B">
+<Column name="status" id="837C6DFE-23F1-9995-FC97-4C62FEC62549">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>ADB57364-E1C0-D915-F2ED-42E75409DF85</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>DBDBE72B-4C4F-B424-747B-FDCCF5E88F87</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,16 +61,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="132C31AD-2ABD-5850-8BDF-A0BC5C7A82F4" name="mahasiswa_PK">
+<ind_PK_UK id="026705A6-0CD5-2960-316B-EACEC1CEFE4B" name="mahasiswa_PK">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>571DCF3E-3C2D-1284-59EA-B465DFA6E103</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>7E8BE135-41A5-90AD-BCBB-5988E9974C9F</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="25026F01-A4F4-ECFD-C188-48B2194A3DB4"/>
+<colUsage columnID="D5CEB5A5-2441-DE21-CEFE-B9F6E247F250"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

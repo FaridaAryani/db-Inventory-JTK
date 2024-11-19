@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="peminjaman_barang_FK" directorySegmentName="seg_0" id="44B70981-E248-74C4-224F-A348D07DD2D4">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="peminjaman_barang_FK" directorySegmentName="seg_0" id="99651C37-9D4B-8082-D972-1BF53BE6DDE5">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:40:22 UTC</createdTime>
-<generatorID>24035BC0-F7B7-C827-ADC8-E524593F13CA</generatorID>
+<createdTime>2024-11-19 16:07:05 UTC</createdTime>
+<generatorID>1463E47B-412E-2403-A493-56F59B5859E5</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
 </engineerTo>
-<sourcePk>E198501E-055F-8FCC-2687-17D32A54A56F</sourcePk>
+<sourcePk>B95F656D-60C4-F462-5253-C7D43B651BCE</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>B5DDA8CB-2CFF-E666-3E5D-AD1E59F554EE</sourceEntity>
+<sourceEntity>1F858D4E-D849-D4A7-E421-81F58F4D5707</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>BEE2BEF6-8456-C683-703E-458CF5AA4DD6</targetEntity>
+<targetEntity>F84E909C-260D-0E28-5282-9BF97B0659B0</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

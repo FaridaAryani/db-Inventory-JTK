@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2252AC3B-0B0E-40D0-BB48-7E23D5C7D804" name="staff">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13EEC476-9618-0B9D-283B-F0BBA330959F" name="staff">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>B2B9F3E0-7374-1C58-F4AB-0EF2870C63CA</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>28902AB2-D525-9F79-F47D-65787098A2EA</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <abbreviation>staff</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_staff" id="6B2E247E-8B5D-E142-DF2B-A1F838D2BBED">
+<Column name="id_staff" id="76DF055A-E904-C29E-0BF1-64C7E0A54259">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>237D7B10-2B0F-A6A3-E45C-565439522BBE</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>4B5CC32E-F44F-6174-C092-39D66380959B</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -21,10 +21,10 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nama_staff" id="612F49BD-9943-A489-D175-E256B8B89243">
+<Column name="nama_staff" id="08A0C091-9A2B-24B4-DDA8-FE9F55C2B74B">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>B829A290-69EB-9916-F1F2-A5600C886392</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>F124C77D-28B5-9687-E0F8-3287F45153AC</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,16 +36,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="594B1CBC-0281-E74C-3269-55F1E5F38364" name="staff_PK">
+<ind_PK_UK id="ACA2430A-6D1C-A810-23DB-B34468F7461A" name="staff_PK">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>7170BCBE-2120-9A04-5108-831350DD8BA5</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>2B801B46-9562-E07F-2FA7-26848BD72482</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6B2E247E-8B5D-E142-DF2B-A1F838D2BBED"/>
+<colUsage columnID="76DF055A-E904-C29E-0BF1-64C7E0A54259"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

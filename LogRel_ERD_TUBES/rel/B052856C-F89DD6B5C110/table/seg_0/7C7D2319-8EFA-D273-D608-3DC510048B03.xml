@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6256A72-D109-333A-052A-DB170B338F07" name="barang">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C7D2319-8EFA-D273-D608-3DC510048B03" name="barang">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>46D61F4F-D0A5-A969-716F-43BF90A9225A</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>8D2DF0B2-A5E6-208B-6A07-96D028D94EC2</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <abbreviation>brg</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_barang" id="44623808-09B3-BC60-DC41-8EFD4BD49E65">
+<Column name="id_barang" id="261EEF59-356E-4BEA-1CD2-86B9E9634338">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>5AB50A2E-1D60-12BD-6874-02C84B01BCBE</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>CE4FA5A4-AF90-60A3-D891-5E3AFA5528E0</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -21,10 +21,10 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nama_brg" id="D427BD95-2DE3-5D49-2565-1686C5DAACE8">
+<Column name="nama_brg" id="CE1AFB0C-4A0F-A1C7-AE25-B77CDD2E5869">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>0D92EF3F-0D5D-6E71-D241-7BD9EE2F9183</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>62F4B6BE-E2B9-011B-5FED-6D83E081D81C</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,10 +34,10 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="stok" id="2656403D-0B42-30D8-E49F-20857B083E75">
+<Column name="stok" id="4EE97FF7-17A6-47E3-04E1-07EE60627FD2">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>D3489A9A-DFA1-3C3A-8F46-DCEFC55F15EF</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>F9F9621F-574C-5A79-E082-5ABCFD4EFBE4</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,10 +46,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="kondisi" id="BA6C0D02-D91E-2B82-4B73-23CE2C2ACE15">
+<Column name="kondisi" id="02F4FF7A-C3DD-F490-7915-B0C069BDAAFE">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>E311C680-6DF7-DC08-3FF4-A2759001E783</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>37C6412C-3FA2-A2BA-5D76-01D12C8BE2D3</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,16 +61,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1A2F0631-8EED-B707-14FC-0F7288EBC863" name="barang_PK">
+<ind_PK_UK id="7F94EF59-65F2-8D6C-BDE8-B71D383B0B85" name="barang_PK">
 <createdBy>LENOVO</createdBy>
-<createdTime>2024-11-19 15:35:46 UTC</createdTime>
-<generatorID>34446B9B-899B-1652-424A-35CF6FA8506E</generatorID>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>7539DBFF-FEE8-561D-BC9D-AE2F6109C704</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="44623808-09B3-BC60-DC41-8EFD4BD49E65"/>
+<colUsage columnID="261EEF59-356E-4BEA-1CD2-86B9E9634338"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

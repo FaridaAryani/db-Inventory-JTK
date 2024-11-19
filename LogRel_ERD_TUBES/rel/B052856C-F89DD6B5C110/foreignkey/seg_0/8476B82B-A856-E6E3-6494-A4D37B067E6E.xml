@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8476B82B-A856-E6E3-6494-A4D37B067E6E" containerWithKeyObject="19BB7EFF-4035-FB9D-2283-DC96D9E10F11" localFKIndex="F1B741D9-9D16-FE7C-0447-E120F70B0111" name="peminjaman_mahasiswa_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:56:54 UTC</createdTime>
+<generatorID>0FDF45D9-80AE-BD39-5CF8-6BA95FBF1BF9</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<referredTableLongName>mahasiswa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B99345B0-AF39-A68E-C36F-6191563F36BA</referredTableID>
+<keyObject>026705A6-0CD5-2960-316B-EACEC1CEFE4B</keyObject>
+<referredKeyID>026705A6-0CD5-2960-316B-EACEC1CEFE4B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nim</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
