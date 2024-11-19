@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="peminjaman_staff_FK" directorySegmentName="seg_0" id="450EFFB9-5255-3DCD-5D57-6B83FEC59766">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>5DA69FE0-2461-57C3-74B9-E10447C50DFC</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<sourcePk>665BCD26-5EC2-C5CC-E1F4-351A477DB601</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4208C5C1-C3C3-D997-5264-F59F9A6A713A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BEE2BEF6-8456-C683-703E-458CF5AA4DD6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

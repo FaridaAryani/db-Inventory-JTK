@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEC4D38F-4759-E7D3-B2E6-257485BCCF39" name="Log_Peminjaman">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2CA2878-1A58-2FDD-E0F4-D13B7D13E8F3" name="log">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>46EEA16D-20BD-EA9F-96CF-1D1FE8DAC1A4</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <abbreviation>log</abbreviation>
@@ -9,9 +9,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Log" id="1926FF92-36D5-2A47-E409-E4C4445B1514">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<Column name="id_log" id="9E2AD029-F84F-3C03-951B-0AC20DB7BE97">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>61D34672-4A14-F538-D77E-0B84711FE743</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Status_brg" id="8769A770-F5F6-6969-7D54-B45915CA0D71">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<Column name="status_brg" id="3E62C7E3-ECD3-CC52-1D9E-DA2CCFC58287">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>25EC5320-692C-0857-67FF-4B8D84E66236</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tgl_log" id="7173BE53-02E3-9AF7-5E38-AD6F742BA4B9">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<Column name="tgl_brg" id="65283D2A-B4E7-94C6-BB78-1EE231C1F99F">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>3DACB0F3-A707-D5E6-F233-4EE09E74D769</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -46,10 +46,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Peminjaman_ID_Pnjm" id="84C199F5-05A4-2F85-7AF8-E554869C82A6">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
-<generatorID>41D717A5-0FFB-2131-E2C2-278CCD694483</generatorID>
+<Column name="peminjaman_id_pinjam" id="4BF0C2F3-9504-7BF6-895C-7EFF367A31AC">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
+<generatorID>CD0A37E0-1F75-E66C-EE7B-0F8BBF487D45</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,32 +59,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="63ED88A1-F351-DEDA-BF6A-D52F88784ED1" referredColumn="8D7075FB-EE6E-F328-AC1E-2F52AC265DD3"/>
+<colAssociation fkAssociation="5F782818-F951-F8DC-F90C-D46B68A8F653" referredColumn="956D2F9A-2133-B348-81DD-CF9908DE95CA"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D2060F3E-AE32-E9CE-35D4-9CEF53817B19" name="Log_Peminjaman_PK">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<ind_PK_UK id="A287B6DD-52D8-5BA7-5986-44BC5D97C2EF" name="log_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>33E6CE9C-AD5C-A17B-5CD5-7B573AE18A3F</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1926FF92-36D5-2A47-E409-E4C4445B1514"/>
+<colUsage columnID="9E2AD029-F84F-3C03-951B-0AC20DB7BE97"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0F246E30-546C-46A7-F1B4-04ACFC91B6E5" name="Log_Peminjaman_Peminjaman_FK">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
-<generatorID>2BACDB6B-05D2-3F11-C716-362D44219552</generatorID>
+<ind_PK_UK id="5B7B8D4E-2F6F-44AA-FA5F-97F86D54445F" name="log_peminjaman_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
+<generatorID>A8581D68-7D9D-27FB-7A5A-0AD263BBD2AF</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="84C199F5-05A4-2F85-7AF8-E554869C82A6"/>
+<colUsage columnID="4BF0C2F3-9504-7BF6-895C-7EFF367A31AC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

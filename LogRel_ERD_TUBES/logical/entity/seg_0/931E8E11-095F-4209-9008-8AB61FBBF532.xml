@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46D61F4F-D0A5-A969-716F-43BF90A9225A" name="Barang">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:10:33 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="931E8E11-095F-4209-9008-8AB61FBBF532" name="log">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>D2CA2878-1A58-2FDD-E0F4-D13B7D13E8F3</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
@@ -14,11 +15,12 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>brg</shortName>
+<shortName>log</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Brg" id="5AB50A2E-1D60-12BD-6874-02C84B01BCBE">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:10:44 UTC</createdTime>
+<Attribute name="id log" id="82905961-2EE7-3F76-182A-102380ED33D0">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>9E2AD029-F84F-3C03-951B-0AC20DB7BE97</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
@@ -29,9 +31,10 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nama_brg" id="0D92EF3F-0D5D-6E71-D241-7BD9EE2F9183">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:11:12 UTC</createdTime>
+<Attribute name="status brg" id="79DDCAF9-128A-33B2-21B8-6951A34C07B7">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>3E62C7E3-ECD3-CC52-1D9E-DA2CCFC58287</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
@@ -43,9 +46,10 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Stok" id="D3489A9A-DFA1-3C3A-8F46-DCEFC55F15EF">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:11:53 UTC</createdTime>
+<Attribute name="tgl brg" id="91004C59-4DFC-1213-1716-7F81EB376A31">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>65283D2A-B4E7-94C6-BB78-1EE231C1F99F</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
@@ -53,36 +57,37 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kondisi" id="E311C680-6DF7-DC08-3FF4-A2759001E783">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:12:03 UTC</createdTime>
+<Attribute name="peminjaman id pinjam" id="F3476A23-5D2E-A0EB-8AC4-BCE8BD8DBB75">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>BF5A8622-9976-2C5D-9390-9C9A8840E57E</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A01FEE89-FD61-3A9D-3074-82056F0E5E74</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="34446B9B-899B-1652-424A-35CF6FA8506E" name="Barang PK">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:11:05 UTC</createdTime>
+<identifier id="9AC795C2-5F74-348F-70DD-5191AAFD4C65" name="log PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>A287B6DD-52D8-5BA7-5986-44BC5D97C2EF</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="false"/>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5AB50A2E-1D60-12BD-6874-02C84B01BCBE</attributeRef>
+<attributeRef>82905961-2EE7-3F76-182A-102380ED33D0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

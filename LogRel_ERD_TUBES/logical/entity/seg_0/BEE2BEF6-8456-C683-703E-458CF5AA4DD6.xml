@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2BEFBE2-C2F6-5773-041D-FB383A87ADAA" name="Peminjaman">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:07:08 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BEE2BEF6-8456-C683-703E-458CF5AA4DD6" name="peminjaman">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>4461F6EB-C5D0-DD73-0C54-13A5BBEF0AA9</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
@@ -16,9 +17,10 @@
 <normalForm>Third</normalForm>
 <shortName>pnjm</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Pnjm" id="26498917-7D34-B72C-A87C-EA63CE8D8548">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:07:21 UTC</createdTime>
+<Attribute name="id pinjam" id="A01FEE89-FD61-3A9D-3074-82056F0E5E74">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>956D2F9A-2133-B348-81DD-CF9908DE95CA</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
@@ -29,9 +31,24 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Status_pnjm" id="3971A25A-63F4-87D4-FC6E-7EA28550FF73">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:07:41 UTC</createdTime>
+<Attribute name="jenis pinjam" id="55DC5F01-0FD0-E7AC-D64A-BCE8E13141B6">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>D804EA9B-4D12-2B5C-51DD-86942396EDF8</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<referedAttribute>48236F33-D042-4BAB-BED5-7ECB71B0E765</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status pinjam" id="B6530201-E251-BFBB-5796-B45E8E13E057">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>4C758405-5961-3FD3-A47F-C4AD20142AE1</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
@@ -40,12 +57,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Tgl_Pinjam" id="18EAE17E-0131-C9BA-F807-19D75F75633E">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:08:12 UTC</createdTime>
+<Attribute name="tgl pinjam" id="402C6801-12D3-8090-35DF-DB2D344841C2">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>59F79149-3C03-0C8B-E7CD-CDFFDEE70247</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
@@ -56,9 +74,10 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Tgl_Kembali" id="5B4DCB00-EC19-3BDE-5FAB-D6AD88A630F4">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:08:35 UTC</createdTime>
+<Attribute name="tgl kembali" id="22045AEE-FF34-46DC-2702-B5783A3B398E">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>576BD069-B1B3-02B2-6059-C2B651A38071</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
@@ -69,78 +88,64 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NIM" id="5ED872BD-74EC-D843-9303-53C970F0129B">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:21:11 UTC</createdTime>
-<generatorID>2FE57522-F56C-6B3A-3FE8-1DBA6BF84328</generatorID>
+<Attribute name="staff id staff" id="1107F3B1-52A0-A656-9125-BFD1FE8C243A">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>450EFFB9-5255-3DCD-5D57-6B83FEC59766</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
 </engineerTo>
-<referedAttribute>87987B3E-A02B-6592-F62D-73A8C20B21D8</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NIP" id="967A4E4D-9CC6-A65E-A2E1-D9EDDBD750DE">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:21:18 UTC</createdTime>
-<generatorID>C4333605-B94B-F513-ECEF-332AE6CB8556</generatorID>
-<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
-<engineerTo>
-<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
-</engineerTo>
-<referedAttribute>8AA44514-0240-75A3-586F-4BB56588011D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_Staff" id="359A7829-E070-B11A-5434-8611AC594515">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:24:49 UTC</createdTime>
-<generatorID>4B41C017-6C5E-7521-5654-882166B43A09</generatorID>
-<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
-<engineerTo>
-<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
-</engineerTo>
-<referedAttribute>237D7B10-2B0F-A6A3-E45C-565439522BBE</referedAttribute>
+<referedAttribute>690C8424-8E73-0761-46C7-7685A9832C00</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Brg" id="91791EB1-E702-52BF-3A42-D0008C47D892">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:24 UTC</createdTime>
-<generatorID>83A2B10D-A177-621E-45B6-42E849619D7E</generatorID>
+<Attribute name="barang id barang" id="D58394D2-96BE-6276-9A42-05D05DA43522">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>44B70981-E248-74C4-224F-A348D07DD2D4</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <engineerTo>
 <item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>5AB50A2E-1D60-12BD-6874-02C84B01BCBE</referedAttribute>
+<referedAttribute>C9682A0D-F411-54EC-F2DD-65891B62DF95</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mahasiswa.nim" id="E4E499B6-873B-05DF-2F65-C6AEBA98B5B4">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>FB28303C-EB61-4D78-6FFC-DCBAB90A4192</generatorID>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<referedAttribute>1000B053-FF88-C93D-5FAF-44880381F13D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BB146506-8AD8-DA9A-AD08-30CFC007EC4E" name="Peminjaman PK">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:07:39 UTC</createdTime>
+<identifier id="79D2F7C4-29BB-7BB5-B056-25896AF60A33" name="peminjaman PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:40:22 UTC</createdTime>
+<generatorID>828F5B07-DC8D-60EF-BC14-9E30E5D85C0F</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="false"/>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>26498917-7D34-B72C-A87C-EA63CE8D8548</attributeRef>
+<attributeRef>A01FEE89-FD61-3A9D-3074-82056F0E5E74</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

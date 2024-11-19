@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC55B18A-ECCA-07D3-58FF-523B5C850719" name="Mahasiswa">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6846A743-0302-F3D5-06A3-7C70ED37AFCE" name="mahasiswa">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>A67F661F-45FC-EA90-18BD-3C48A50C6CF0</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <abbreviation>mhs</abbreviation>
@@ -9,9 +9,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="NIM" id="854BBDBB-88C0-00A6-2876-B2E9149D7C80">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<Column name="nim" id="25026F01-A4F4-ECFD-C188-48B2194A3DB4">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>87987B3E-A02B-6592-F62D-73A8C20B21D8</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,57 +20,57 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nama_mhs" id="EFE97A4B-83C5-A89B-C370-1D829CEECE87">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<Column name="nama_mhs" id="EEFDA1D9-DDFB-910C-E479-089B932E7BE8">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>76A81BEB-3D7D-8C56-ACCE-272DED4F499D</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kelas" id="6431BE0A-5D1A-1FDF-AEBC-50DDBD85D61A">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<Column name="kelas" id="CCA48988-BF4A-BB2A-1468-6D9325A0C156">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>05EF55DC-5D80-9C6C-C34D-A3172FE22954</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Status" id="00301A63-E14D-9401-BC39-17024CDE5DEB">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<Column name="status" id="5EAEE186-9E8E-0A10-7CD9-EBA96D04777B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>ADB57364-E1C0-D915-F2ED-42E75409DF85</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6B1999E1-A1DA-193D-A901-52E5EF6DAEF3" name="Mahasiswa_PK">
-<createdBy>ASUS</createdBy>
-<createdTime>2024-11-12 17:38:45 UTC</createdTime>
+<ind_PK_UK id="132C31AD-2ABD-5850-8BDF-A0BC5C7A82F4" name="mahasiswa_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:35:46 UTC</createdTime>
 <generatorID>571DCF3E-3C2D-1284-59EA-B465DFA6E103</generatorID>
 <ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="854BBDBB-88C0-00A6-2876-B2E9149D7C80"/>
+<colUsage columnID="25026F01-A4F4-ECFD-C188-48B2194A3DB4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
