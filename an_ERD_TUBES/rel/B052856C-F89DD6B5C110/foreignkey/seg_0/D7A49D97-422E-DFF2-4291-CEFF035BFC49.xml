@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7A49D97-422E-DFF2-4291-CEFF035BFC49" containerWithKeyObject="FF9491C4-6A1B-98C2-647E-0E044DB20561" localFKIndex="91141050-C1C2-7649-69B3-0117A858E153" name="pengaju_dosen_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>FDB061D7-846D-2541-3F0E-B361EB07320B</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<referredTableLongName>dosen</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E84D64D9-E56B-0FE2-4A0F-DB77AF9728E2</referredTableID>
+<keyObject>9C9DAC03-D7CC-7596-DF4D-B695754333B9</keyObject>
+<referredKeyID>9C9DAC03-D7CC-7596-DF4D-B695754333B9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nip</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

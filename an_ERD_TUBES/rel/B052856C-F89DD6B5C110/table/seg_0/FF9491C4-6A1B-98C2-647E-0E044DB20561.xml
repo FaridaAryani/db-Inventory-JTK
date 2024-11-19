@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF9491C4-6A1B-98C2-647E-0E044DB20561" name="pengaju">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>49BA6E50-2745-B75C-6C6F-7EB5D98B82F7</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<abbreviation>aju</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pengaju" id="3D3F01BD-89DB-D66A-5810-8935596DA92A">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>586180AA-076C-6AF3-4F18-422552179E50</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7A49D97-422E-DFF2-4291-CEFF035BFC49" referredColumn="779CF60C-8FFE-D4BB-FBAE-D1793D947679"/>
+<colAssociation fkAssociation="67CE06A3-BBD7-09E4-CBF4-AD015E1F2118" referredColumn="EA0BC8AB-60E8-60EC-5F2C-0074BE561DFA"/>
+</associations>
+</Column>
+<Column name="jenis_pengaju" id="53F4EB26-5715-C53E-BF1B-D0321D81ACD2">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>808F9DCD-CE28-D82F-D1DB-8A650684709E</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mahasiswa_nim" id="164DD760-F247-C4C6-BF9E-88AB722DE466">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:26 UTC</createdTime>
+<generatorID>FB8DEB25-6E74-2868-6286-2080AE905B29</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dosen_nip" id="77B51B2D-46AA-989F-57B0-D3BFC23A819D">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:26 UTC</createdTime>
+<generatorID>2531078A-0009-3190-2E12-42BB238775B5</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47E73652-0B35-9B60-6E46-AA729D07B620" name="pengaju_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>86155D28-68F2-64C5-1B5A-84153433E500</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3F01BD-89DB-D66A-5810-8935596DA92A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29B3B9EC-3685-FA1F-522E-8D65D32AF61F" name="pengaju__IDX">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FDB061D7-846D-2541-3F0E-B361EB07320B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="77B51B2D-46AA-989F-57B0-D3BFC23A819D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7D72D4A-AD6B-75A1-D9A2-36FFD6EC0679" name="pengaju__IDXv1">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4713125D-AA9F-AAAB-425E-3009015326DB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="164DD760-F247-C4C6-BF9E-88AB722DE466"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91141050-C1C2-7649-69B3-0117A858E153" name="pengaju_dosen_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>FDB061D7-846D-2541-3F0E-B361EB07320B</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3F01BD-89DB-D66A-5810-8935596DA92A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFE78C29-AF68-3ED2-9CC3-1181190FF34C" name="pengaju_mahasiswa_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>4713125D-AA9F-AAAB-425E-3009015326DB</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3F01BD-89DB-D66A-5810-8935596DA92A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

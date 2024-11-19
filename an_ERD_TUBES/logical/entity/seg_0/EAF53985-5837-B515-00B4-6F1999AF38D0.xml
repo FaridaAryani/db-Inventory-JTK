@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAF53985-5837-B515-00B4-6F1999AF38D0" name="pengaju">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>FF9491C4-6A1B-98C2-647E-0E044DB20561</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>aju</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pengaju" id="C6DD768D-DE62-09CE-B002-636BA9A82CF6">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>2E50E872-3143-6255-55E1-B66C3CE57493</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<referedAttribute>0AD4B4FA-1E7E-C6A1-8228-BFBCE48A5FEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis pengaju" id="6714906C-23EF-BBC3-14A9-09C20EB05EE5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>53F4EB26-5715-C53E-BF1B-D0321D81ACD2</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mahasiswa nim" id="C5258DDA-0AF0-7BDC-5C9D-CB02F09CCEC0">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>164DD760-F247-C4C6-BF9E-88AB722DE466</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dosen nip" id="A2407286-E3E5-180D-B467-F491A0D46C3C">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>77B51B2D-46AA-989F-57B0-D3BFC23A819D</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mahasiswa.nim" id="8C72C534-1D3A-A02B-143F-AEC0E92C520C">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>1738F2E6-529C-D65E-1B00-880A1E0135D1</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<referedAttribute>E1BAC48C-1DB2-1E1B-D6B1-E0BA4CF5CF1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E4B4BE6-64CF-BEBB-D9E4-479A0513B967" name="pengaju PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>47E73652-0B35-9B60-6E46-AA729D07B620</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6DD768D-DE62-09CE-B002-636BA9A82CF6</attributeRef>
+<attributeRef>8C72C534-1D3A-A02B-143F-AEC0E92C520C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

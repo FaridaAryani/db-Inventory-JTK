@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pengaju_mahasiswa_FK" directorySegmentName="seg_0" id="1738F2E6-529C-D65E-1B00-880A1E0135D1">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>67CE06A3-BBD7-09E4-CBF4-AD015E1F2118</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<sourcePk>2849A778-FC2B-7038-936A-7079B329880D</sourcePk>
+<dominantRole>A3CF5E25-8C31-2627-6A16-7AF361635A13</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3CF5E25-8C31-2627-6A16-7AF361635A13</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EAF53985-5837-B515-00B4-6F1999AF38D0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="80051AFF-D615-5F24-85E6-B64AACF3843A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 16:40:27 UTC</createdTime>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

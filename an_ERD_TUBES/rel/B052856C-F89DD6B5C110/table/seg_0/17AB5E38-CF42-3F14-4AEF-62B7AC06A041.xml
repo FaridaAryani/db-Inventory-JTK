@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17AB5E38-CF42-3F14-4AEF-62B7AC06A041" name="barang">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>46D61F4F-D0A5-A969-716F-43BF90A9225A</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<abbreviation>brg</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_barang" id="B9017C3E-6C66-5056-779E-362108740C41">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>5AB50A2E-1D60-12BD-6874-02C84B01BCBE</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_brg" id="0B66CA09-B3C0-DC86-45EC-C359A9F367CF">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>0D92EF3F-0D5D-6E71-D241-7BD9EE2F9183</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stok" id="346F4AAD-9821-8D5B-33CA-2F5428B9B86F">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>D3489A9A-DFA1-3C3A-8F46-DCEFC55F15EF</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kondisi" id="5ABBF422-A4B7-6359-2E07-D699472C2778">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>E311C680-6DF7-DC08-3FF4-A2759001E783</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="891FF559-84D7-2EB7-B447-B59A36974516" name="barang_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>34446B9B-899B-1652-424A-35CF6FA8506E</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9017C3E-6C66-5056-779E-362108740C41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

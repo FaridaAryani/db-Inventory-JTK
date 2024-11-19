@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69E6AC7B-54EC-7A6D-4B42-8DB660B747EA" name="barang">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>17AB5E38-CF42-3F14-4AEF-62B7AC06A041</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>brg</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id barang" id="D2BEEC73-A980-8507-58F3-406469180467">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>B9017C3E-6C66-5056-779E-362108740C41</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama brg" id="5A0AAEFE-C038-D792-54A5-D277E1D7CE85">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>0B66CA09-B3C0-DC86-45EC-C359A9F367CF</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stok" id="DA498393-F822-FD35-736F-64DAF921ED57">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>346F4AAD-9821-8D5B-33CA-2F5428B9B86F</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kondisi" id="BAFA4B29-DD5A-DE27-049D-5DD4636240BC">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>5ABBF422-A4B7-6359-2E07-D699472C2778</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7577F514-DF2F-81BF-A485-3320EB4C0ED7" name="barang PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>891FF559-84D7-2EB7-B447-B59A36974516</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D2BEEC73-A980-8507-58F3-406469180467</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

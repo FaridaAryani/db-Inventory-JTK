@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D50979E2-282D-CC4C-2E98-51336C6BDA97" mainViewID="C4E11445-5A2A-7B8F-CD0E-C6FAD7C7EF69">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-12 16:40:27 UTC</createdTime>
+<ownerDesignName>LogRel_ERD_TUBES</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

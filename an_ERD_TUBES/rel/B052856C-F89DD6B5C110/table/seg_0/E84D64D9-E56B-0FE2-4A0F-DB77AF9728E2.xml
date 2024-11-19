@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E84D64D9-E56B-0FE2-4A0F-DB77AF9728E2" name="dosen">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>E8007FF8-A306-2CCA-C553-0BC92736E1F1</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<abbreviation>dsn</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nip" id="779CF60C-8FFE-D4BB-FBAE-D1793D947679">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>8AA44514-0240-75A3-586F-4BB56588011D</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_dsn" id="7F86BDB2-8CDA-59EA-187D-8ACED2F76A44">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>98298DEF-1C47-62A9-3FFD-8D7AA03D8A0B</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C9DAC03-D7CC-7596-DF4D-B695754333B9" name="dosen_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>20DD8CBA-CFC6-3ED3-E6C7-BE09F5F72FC0</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="779CF60C-8FFE-D4BB-FBAE-D1793D947679"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9484F2AA-5AAA-E908-E582-1A3DAE7349D0" name="peminjaman">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>E2BEFBE2-C2F6-5773-041D-FB383A87ADAA</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<abbreviation>pinjam</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pinjam" id="724417D0-DA0F-1415-8477-D57F08A9EF29">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>26498917-7D34-B72C-A87C-EA63CE8D8548</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pengaju_id_pengaju" id="02D4FD77-62A8-B3E9-3F35-11F36BEA17B9">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>05D2B397-4F4B-05CF-4444-D82D2A12C43C</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65143786-FD55-FDF4-43BA-ED1B5388162F" referredColumn="3D3F01BD-89DB-D66A-5810-8935596DA92A"/>
+</associations>
+</Column>
+<Column name="status_pinjam" id="AD34BABA-096A-2992-87E2-A75395C672EB">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>3971A25A-63F4-87D4-FC6E-7EA28550FF73</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tgl_pinjam" id="F312F878-3DD4-6FA4-CA86-8C21FC9C2487">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>18EAE17E-0131-C9BA-F807-19D75F75633E</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tgl_kembali" id="D4CEBE65-91AB-7AB1-DF9F-BAF1E72E81FE">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>5B4DCB00-EC19-3BDE-5FAB-D6AD88A630F4</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_id_staff" id="BF7372F6-1BB0-8580-E838-679320B70B64">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>359A7829-E070-B11A-5434-8611AC594515</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22E8C173-AC06-8903-7969-AF733EC5DB38" referredColumn="25091E74-6AA7-E41E-FA9C-0CCF23466096"/>
+</associations>
+</Column>
+<Column name="barang_id_barang" id="C1AB6F1F-B65F-99C4-17EE-1D53D14FC775">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>91791EB1-E702-52BF-3A42-D0008C47D892</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5266D070-B5A0-9852-311C-BE50DF5A4786" referredColumn="B9017C3E-6C66-5056-779E-362108740C41"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83484F3C-384D-1F80-C8A8-A7E60551C446" name="peminjaman_PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>BB146506-8AD8-DA9A-AD08-30CFC007EC4E</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="724417D0-DA0F-1415-8477-D57F08A9EF29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0A19668-39C8-DC19-1DA6-CF9D8024AE72" name="peminjaman__IDX">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1101CA6A-109F-16D1-C3F9-2AB66D3CF086</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="02D4FD77-62A8-B3E9-3F35-11F36BEA17B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="575365B2-FB36-9208-CCDC-175138314980" name="peminjaman_pengaju_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>1101CA6A-109F-16D1-C3F9-2AB66D3CF086</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02D4FD77-62A8-B3E9-3F35-11F36BEA17B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2C366C0-9516-B158-F929-B954ACDE8D2C" name="peminjaman_barang_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>83A2B10D-A177-621E-45B6-42E849619D7E</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1AB6F1F-B65F-99C4-17EE-1D53D14FC775"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53B77DE3-72F2-3B52-FF55-AE723A07F7FB" name="peminjaman_staff_FK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:15:00 UTC</createdTime>
+<generatorID>4B41C017-6C5E-7521-5654-882166B43A09</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF7372F6-1BB0-8580-E838-679320B70B64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pengaju_dosen_FK" directorySegmentName="seg_0" id="2E50E872-3143-6255-55E1-B66C3CE57493">
+<createdBy>LENOVO</createdBy>
+<createdTime>2024-11-19 15:18:35 UTC</createdTime>
+<generatorID>D7A49D97-422E-DFF2-4291-CEFF035BFC49</generatorID>
+<ownerDesignName>an_ERD_TUBES</ownerDesignName>
+<engineerTo>
+<item key="B052856C-C5A4-F253-9335-F89DD6B5C110" value="true"/>
+</engineerTo>
+<sourcePk>176181A4-A2E9-0D96-E11D-D0DC8B7EE556</sourcePk>
+<dominantRole>E1C89BF9-121C-BD79-5299-3F65A9BB56C4</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E1C89BF9-121C-BD79-5299-3F65A9BB56C4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EAF53985-5837-B515-00B4-6F1999AF38D0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
