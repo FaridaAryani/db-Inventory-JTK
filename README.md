@@ -37,4 +37,4 @@ Kembalikan barang dengan update kondisi terakhirnya. Semua riwayat pengembalian 
 Cek barang yang tersedia atau sedang dipinjam hanya dengan satu klik. Tidak ada lagi "Oops, barangnya nggak ada!" saat kamu butuh meminjam sesuatu.
 
 ### 📈 **Laporan & Analisis**
-Database ini juga mendukung fitur *reporting* sehingga kamu bisa melihat pola peminjaman dan mendapatkan insight tentang barang yang sering dipakai atau yang perlu perawatan ekstra.
+Database ini juga mendukung fitur Log Peminjaman sehingga kamu bisa melihat pola peminjaman dan mendapatkan insight tentang barang yang sering dipakai atau yang perlu perawatan ekstra.
