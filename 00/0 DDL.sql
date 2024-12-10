@@ -77,7 +77,7 @@ CREATE TABLE mahasiswa (
     nim              INTEGER NOT NULL,
     nama_mhs         VARCHAR2(100),
     kelas            VARCHAR2(100),
-    status           INTEGER,
+    status           VARCHAR2(100),
     akun_aju_id_akun INTEGER
 )
 LOGGING;
