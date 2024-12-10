@@ -12,9 +12,9 @@
 CREATE TABLE akun_aju (
     id_akun       INTEGER NOT NULL,
     akun_role     VARCHAR2(100),
-    staf_id_staf  VARCHAR2(100) NOT NULL,
-    mahasiswa_nim INTEGER NOT NULL,
-    dosen_nip     INTEGER NOT NULL
+    staf_id_staf  VARCHAR2(100),
+    mahasiswa_nim INTEGER,
+    dosen_nip     INTEGER 
 )
 LOGGING;
 
@@ -51,7 +51,7 @@ ALTER TABLE barang ADD CONSTRAINT barang_pk PRIMARY KEY ( id_barang );
 CREATE TABLE dosen (
     nip              INTEGER NOT NULL,
     nama             VARCHAR2(100),
-    akun_aju_id_akun INTEGER NOT NULL
+    akun_aju_id_akun INTEGER 
 )
 LOGGING;
 
@@ -78,7 +78,7 @@ CREATE TABLE mahasiswa (
     nama_mhs         VARCHAR2(100),
     kelas            VARCHAR2(100),
     status           INTEGER,
-    akun_aju_id_akun INTEGER NOT NULL
+    akun_aju_id_akun INTEGER
 )
 LOGGING;
 
@@ -96,7 +96,7 @@ CREATE TABLE peminjaman (
     tgl_pinjam       DATE,
     tgl_kembali      DATE,
     barang_id_barang VARCHAR2(100) NOT NULL,
-    akun_aju_id_akun INTEGER
+    akun_aju_id_akun INTEGER NOT NULL
 )
 LOGGING;
 
@@ -105,7 +105,7 @@ ALTER TABLE peminjaman ADD CONSTRAINT peminjaman_pk PRIMARY KEY ( id_pinjam );
 CREATE TABLE staf (
     id_staf          VARCHAR2(100) NOT NULL,
     nama_staf        VARCHAR2(100),
-    akun_aju_id_akun INTEGER NOT NULL
+    akun_aju_id_akun INTEGER
 )
 LOGGING;
 

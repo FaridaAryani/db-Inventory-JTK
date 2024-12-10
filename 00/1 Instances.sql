@@ -1,19 +1,20 @@
--- Tambah data staff
-insert into staff values ('S001', 'Staff 1');
+-- Insert into dosen
+INSERT INTO dosen (nip, nama) VALUES (123456, 'Dr. John Doe');
+INSERT INTO dosen (nip, nama) VALUES (789012, 'Prof. Jane Smith');
 
--- Tambah data barang
-insert into barang values ('B001', 'Laptop', 10, 'Baik');
-insert into barang values ('B002', 'Proyektor', 5, 'Baik');
+-- Insert into mahasiswa
+INSERT INTO mahasiswa (nim, nama_mhs, kelas, status) VALUES (1001, 'Alice', 'IF-3A', 1, 3);
+INSERT INTO mahasiswa (nim, nama_mhs, kelas, status) VALUES (1002, 'Bob', 'IF-3B', 1, 4);
 
--- Tambah data akun pengaju
-insert into akun_aju values (1, 'John Doe', 'Mahasiswa');
-insert into akun_aju values (2, 'Jane Smith', 'Dosen');
+-- Insert into staff
+INSERT INTO staf (id_staf, nama_staf) VALUES ('S001', 'Charlie', 5);
+INSERT INTO staf (id_staf, nama_staf) VALUES ('S002', 'David', 6);
 
--- Tambah data mahasiswa
-insert into mahasiswa values (1001, 'John Doe', 'IF1', 'Aktif', 1);
-
--- Tambah data dosen
-insert into dosen values (2001, 'Jane Smith', 2);
-
--- Tambah data peminjaman
-insert into peminjaman values ('P001', 'Sedang Dipinjam', SYSDATE, SYSDATE + 7, 'S001', 'B001', 1);
+-- Insert into barang
+INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B001', 'Terminal', 'baik', 'tersedia');
+INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B002', 'Terminal', 'rusak', 'tidak ada');
+INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B003', 'Infocus', 'baik', 'tidak ada');
+INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B004', 'Infocus', 'baik', 'tersedia');
+INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B005', 'Ekstensi', 'rusak', 'tersedia');
+INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B006', 'Ekstensi', 'baik', 'tidak ada');
+INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B007', 'Paketan', 'rusak', 'tidak ada');
