@@ -62,3 +62,53 @@ BEGIN
     END IF;
 END;
 /
+
+CREATE OR REPLACE PROCEDURE insert_peminjaman (
+    p_id_pinjam        IN VARCHAR2,
+    p_status_pinjam    IN VARCHAR2,
+    p_barang_id_barang IN VARCHAR2,
+    p_akun_aju_id_akun IN INTEGER
+) AS
+    v_barang_kondisi    VARCHAR2(100);
+    v_barang_status     VARCHAR2(100);
+    v_existing_pinjaman INTEGER;
+BEGIN
+    -- Cek apakah akun memiliki peminjaman aktif
+    IF p_status_pinjam = 'sedang dipinjam' THEN
+        SELECT COUNT(*)
+        INTO v_existing_pinjaman
+        FROM peminjaman
+        WHERE akun_aju_id_akun = p_akun_aju_id_akun
+          AND status_pinjam = 'sedang dipinjam';
+
+        IF v_existing_pinjaman > 0 THEN
+            RAISE_APPLICATION_ERROR(-20001, 'Akun ini sudah memiliki peminjaman aktif.');
+        END IF;
+    END IF;
+
+    -- Cek kondisi dan status barang
+    SELECT kondisi, status_brg
+    INTO v_barang_kondisi, v_barang_status
+    FROM barang
+    WHERE id_barang = p_barang_id_barang;
+
+    IF v_barang_kondisi != 'baik' OR v_barang_status != 'tersedia' THEN
+        RAISE_APPLICATION_ERROR(-20002, 'Barang tidak memenuhi syarat untuk dipinjam.');
+    END IF;
+
+    -- Insert data ke tabel peminjaman
+    INSERT INTO peminjaman (id_pinjam, status_pinjam, barang_id_barang, akun_aju_id_akun)
+    VALUES (p_id_pinjam, p_status_pinjam, p_barang_id_barang, p_akun_aju_id_akun);
+
+    COMMIT;
+END;
+/
+
+CREATE OR REPLACE TRIGGER trg_set_tgl_pinjam
+BEFORE INSERT ON peminjaman
+FOR EACH ROW
+BEGIN
+    :NEW.tgl_pinjam := SYSDATE;
+END;
+/
+
