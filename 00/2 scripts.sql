@@ -63,6 +63,11 @@ BEGIN
 END;
 /
 
+/*
+    Author    : Dzaka
+    Deskripsi :
+    Prosedur pembuatan record peminjaman
+*/
 CREATE OR REPLACE PROCEDURE insert_peminjaman (
     p_id_pinjam        IN VARCHAR2,
     p_status_pinjam    IN VARCHAR2,
@@ -104,6 +109,11 @@ BEGIN
 END;
 /
 
+/*
+    Author    : Dzaka
+    Deskripsi :
+    Trigger pencatatan waktu pinjam
+*/
 CREATE OR REPLACE TRIGGER trg_set_tgl_pinjam
 BEFORE INSERT ON peminjaman
 FOR EACH ROW
