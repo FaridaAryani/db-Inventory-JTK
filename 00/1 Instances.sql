@@ -4,7 +4,7 @@ INSERT INTO dosen (nip, nama) VALUES (789012, 'Prof. Jane Smith');
 
 -- Insert into mahasiswa
 INSERT INTO mahasiswa (nim, nama_mhs, kelas, status) VALUES (23011, 'Alice', '2A-D4', 'aktif');
-INSERT INTO mahasiswa (nim, nama_mhs, kelas, status) VALUES (19022, 'Bob', '4B-D2', 'alumni');
+INSERT INTO mahasiswa (nim, nama_mhs, kelas, status) VALUES (19022, 'Chad', '4B-D2', 'alumni');
 INSERT INTO mahasiswa (nim, nama_mhs, kelas, status) VALUES (23033, 'Bob', '2C-D3', 'aktif');
 
 -- Insert into staff
@@ -19,3 +19,5 @@ INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B004', 'I
 INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B005', 'Ekstensi', 'rusak', 'tersedia');
 INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B006', 'Ekstensi', 'baik', 'tidak ada');
 INSERT INTO barang (id_barang, nama_brg, kondisi, status_brg) VALUES ('B007', 'Paketan', 'rusak', 'tidak ada');
+
+COMMIT;
