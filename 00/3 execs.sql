@@ -1,9 +1,9 @@
 -- Prosedur untuk membuat akun baru
 DECLARE
-    v_id_akun   NUMBER := 101; -- ID Akun baru
-    v_role_akun VARCHAR2(20) := 'mahasiswa'; -- Role: mahasiswa atau dosen
-    v_id_peminjam NUMBER := 22311; -- NIM atau NIP sesuai role
-    v_id_staff NUMBER := 30001; -- ID staf yang terkait
+    v_id_akun   NUMBER := 101;                  -- ID Akun baru
+    v_role_akun VARCHAR2(20) := 'mahasiswa';    -- Role: mahasiswa atau dosen
+    v_id_peminjam NUMBER := 22311;              -- NIM atau NIP sesuai role
+    v_id_staff NUMBER := 30001;                 -- ID staf yang terkait
 BEGIN
     -- Panggil prosedur
     create_akun_aju(
