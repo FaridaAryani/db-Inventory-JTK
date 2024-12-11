@@ -1,124 +1,47 @@
-/*
-    Author    : Dzaka
-    Deskripsi :
-    Prosedur pengecheckan dan pembuatan akun_aju
-*/
-CREATE OR REPLACE PROCEDURE insert_akun_aju (
-    p_id_akun       IN INTEGER,
-    p_akun_role     OUT VARCHAR2,
-    p_staff_id_staf IN VARCHAR2,
-    p_mahasiswa_nim IN INTEGER,
-    p_dosen_nip     IN INTEGER
-) AS
-    v_status VARCHAR2(100);
+CREATE OR REPLACE PROCEDURE create_akun_aju (
+    p_id_akun   IN akun_aju.id_akun%TYPE,
+    p_role_akun IN akun_aju.akun_role%TYPE,
+    p_id_peminjam IN NUMBER,
+    p_id_staff IN staf.id_staff%TYPE
+) IS
+    v_status_mahasiswa mahasiswa.status%TYPE;
 BEGIN
-    IF p_mahasiswa_nim IS NOT NULL AND p_dosen_nip IS NOT NULL THEN
-        RAISE_APPLICATION_ERROR(-20001, 'Hanya salah satu dari mahasiswa_nim atau dosen_nip yang boleh diisi.');
-    END IF;
+    -- Insert ke tabel akun_aju
+    INSERT INTO akun_aju (id_akun, akun_role)
+    VALUES (p_id_akun, p_role_akun);
 
-    IF p_mahasiswa_nim IS NOT NULL THEN
-        SELECT status INTO v_status
+    -- Cek role_akun
+    IF p_role_akun = 'mahasiswa' THEN
+        -- Pastikan mahasiswa memiliki status "aktif"
+        SELECT status INTO v_status_mahasiswa
         FROM mahasiswa
-        WHERE nim = p_mahasiswa_nim;
+        WHERE nim = p_id_peminjam;
 
-        IF v_status != 'aktif' THEN
-            RAISE_APPLICATION_ERROR(-20002, 'Mahasiswa tidak memiliki status aktif.');
+        IF v_status_mahasiswa = 'aktif' THEN
+            -- Update Foreign Key mahasiswa ke akun_aju
+            UPDATE mahasiswa
+            SET akun_aju_id_akun = p_id_akun
+            WHERE nim = p_id_peminjam;
+        ELSE
+            RAISE_APPLICATION_ERROR(-20001, 'Mahasiswa tidak aktif, tidak dapat membuat akun aju.');
         END IF;
 
-        p_akun_role := 'mahasiswa';
-
-    ELSIF p_dosen_nip IS NOT NULL THEN
-        p_akun_role := 'dosen';
-    ELSE
-        RAISE_APPLICATION_ERROR(-20003, 'Salah satu dari mahasiswa_nim atau dosen_nip harus diisi.');
-    END IF;
-
-    -- Insert data ke tabel akun_aju
-    INSERT INTO akun_aju (id_akun, akun_role, staf_id_staf, mahasiswa_nim, dosen_nip)
-    VALUES (p_id_akun, p_akun_role, p_staff_id_staf, p_mahasiswa_nim, p_dosen_nip);
-    
-    COMMIT;
-END;
-/
-
-/*
-    Author    : Dzaka
-    Deskripsi :
-    Trigger pendistribusian id_akun untuk peminjam
-*/
-CREATE OR REPLACE TRIGGER trg_update_akun_aju
-AFTER INSERT ON akun_aju
-FOR EACH ROW
-BEGIN
-    IF :NEW.mahasiswa_nim IS NOT NULL THEN
-        UPDATE mahasiswa
-        SET akun_aju_id_akun = :NEW.id_akun
-        WHERE nim = :NEW.mahasiswa_nim;
-
-    ELSIF :NEW.dosen_nip IS NOT NULL THEN
+    ELSIF p_role_akun = 'dosen' THEN
+        -- Update Foreign Key dosen ke akun_aju
         UPDATE dosen
-        SET akun_aju_id_akun = :NEW.id_akun
-        WHERE nip = :NEW.dosen_nip;
-    END IF;
-END;
-/
+        SET akun_aju_id_akun = p_id_akun
+        WHERE nip = p_id_peminjam;
 
-/*
-    Author    : Dzaka
-    Deskripsi :
-    Prosedur pembuatan record peminjaman
-*/
-CREATE OR REPLACE PROCEDURE insert_peminjaman (
-    p_id_pinjam        IN VARCHAR2,
-    p_status_pinjam    IN VARCHAR2,
-    p_barang_id_barang IN VARCHAR2,
-    p_akun_aju_id_akun IN INTEGER
-) AS
-    v_barang_kondisi    VARCHAR2(100);
-    v_barang_status     VARCHAR2(100);
-    v_existing_pinjaman INTEGER;
-BEGIN
-    -- Cek apakah akun memiliki peminjaman aktif
-    IF p_status_pinjam = 'sedang dipinjam' THEN
-        SELECT COUNT(*)
-        INTO v_existing_pinjaman
-        FROM peminjaman
-        WHERE akun_aju_id_akun = p_akun_aju_id_akun
-          AND status_pinjam = 'sedang dipinjam';
-
-        IF v_existing_pinjaman > 0 THEN
-            RAISE_APPLICATION_ERROR(-20001, 'Akun ini sudah memiliki peminjaman aktif.');
-        END IF;
+    ELSE
+        RAISE_APPLICATION_ERROR(-20002, 'Role akun tidak valid. Hanya "mahasiswa" atau "dosen" yang diperbolehkan.');
     END IF;
 
-    -- Cek kondisi dan status barang
-    SELECT kondisi, status_brg
-    INTO v_barang_kondisi, v_barang_status
-    FROM barang
-    WHERE id_barang = p_barang_id_barang;
+    -- Update Foreign Key staf ke akun_aju
+    UPDATE staf
+    SET akun_aju_id_akun = p_id_akun
+    WHERE id_staff = p_id_staff;
 
-    IF v_barang_kondisi != 'baik' OR v_barang_status != 'tersedia' THEN
-        RAISE_APPLICATION_ERROR(-20002, 'Barang tidak memenuhi syarat untuk dipinjam.');
-    END IF;
-
-    -- Insert data ke tabel peminjaman
-    INSERT INTO peminjaman (id_pinjam, status_pinjam, barang_id_barang, akun_aju_id_akun)
-    VALUES (p_id_pinjam, p_status_pinjam, p_barang_id_barang, p_akun_aju_id_akun);
-
+    -- Commit perubahan
     COMMIT;
 END;
 /
-
-/*
-    Author    : Dzaka
-    Deskripsi :
-    Trigger pencatatan waktu pinjam
-*/
-CREATE OR REPLACE TRIGGER trg_set_tgl_pinjam
-BEFORE INSERT ON peminjaman
-FOR EACH ROW
-BEGIN
-    :NEW.tgl_pinjam := SYSDATE;
-END;
-/
-
